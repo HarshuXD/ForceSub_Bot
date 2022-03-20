@@ -17,7 +17,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/tgxbotz_chat).",
+                   text="Sorry Sir, You are B A N N E D. Contact my [BOSS](https://t.me/harshu_xD).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -98,7 +98,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/tgxbotz_chat).",
+                   text="Sorry Sir, You are B A N N E D. Contact my [BOSS](https://t.me/harshu_xd).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
