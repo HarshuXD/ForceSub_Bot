@@ -42,8 +42,8 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/tgxbotz_update"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/tgxbotz_chat")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/StarterBotz"),
+                           InlineKeyboardButton("Support", url="https://t.me/Harshu_xD")
                       ],
 
                   ]
@@ -57,8 +57,8 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/tgxbotz_update"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/tgxbotz_chat")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/StarterBotz"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/harshu_xD")
                 ],
             ]
         ),
@@ -74,14 +74,14 @@ def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Creator", url="https://t.me/shrvan42")
+                    InlineKeyboardButton("Creator", url="https://t.me/Harshu_xD")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/tgxbotz_update"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/tgxbotz_chat")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/StarterBotz"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Harshu_xD")
                 ],
                 [
-                    InlineKeyboardButton("Creator", url="https://t.me/shrvan42")
+                    InlineKeyboardButton("Creator", url="https://t.me/Harshu_xD")
                 ]
             ]
         ),
@@ -120,7 +120,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/tgxbotz_chat).",
+                text="Hey use this command in my pm. \nFor more help ask my [BOSS](https://t.me/Harshu_xD).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
